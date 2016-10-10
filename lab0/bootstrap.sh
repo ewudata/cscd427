@@ -1,5 +1,5 @@
 #!/bin/sh
-yum -y -q install epel-release
+yum -y install epel-release
 # yum -y -q update
 
 echo "
