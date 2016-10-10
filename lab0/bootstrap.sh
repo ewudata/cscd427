@@ -3,6 +3,7 @@ yum -y install nano
 # yum -y install epel-release
 # yum -y -q update
 
+systemctl disable firewalld
 echo "
 ## Colorize the ls output ##
 alias ls='ls --color=auto'
