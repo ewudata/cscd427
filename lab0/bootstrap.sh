@@ -1,6 +1,6 @@
 #!/bin/sh
-yum -y install epel-release
 yum -y install nano
+# yum -y install epel-release
 # yum -y -q update
 
 echo "
