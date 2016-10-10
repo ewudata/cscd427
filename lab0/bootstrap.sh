@@ -20,3 +20,5 @@ alias .5='cd ../../../../..'
 
 alias mkdir='mkdir -pv'
 " >> /home/vagrant/.bash_profile
+
+echo "bootstrap scirpt ends"
