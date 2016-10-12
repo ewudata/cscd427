@@ -4,6 +4,8 @@ yum -y install nano
 # yum -y -q update
 
 systemctl disable firewalld
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+
 echo "
 ## Colorize the ls output ##
 alias ls='ls --color=auto'
